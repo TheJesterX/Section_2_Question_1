@@ -1,0 +1,4 @@
+SELECT * FROM tblQ1
+ORDER BY CASE WHEN Region >= 'D' THEN 1 ELSE 0 END DESC,
+	Region ASC,
+	Contact ASC
